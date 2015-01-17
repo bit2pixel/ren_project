@@ -12,7 +12,7 @@ if [ -z "$PORT" ]; then
 fi
 
 if [ -z "$VIRTUAL_ENV" ]; then
-    echo "Setting up virtual environment"
+    echo "Loading virtual environment"
     source ren_project_venv/bin/activate
 fi
 
