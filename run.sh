@@ -16,6 +16,9 @@ if [ -z "$VIRTUAL_ENV" ]; then
     source ren_project_venv/bin/activate
 fi
 
+# Clean project directory
+find . -name '*.pyc' -delete
+
 # Update assets
 ./manage.py collectstatic --noinput
 
