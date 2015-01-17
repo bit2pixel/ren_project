@@ -1,7 +1,7 @@
 Ren Project
 ===========
 
-A Django template app creator.
+A Django boilerplate app creator. Has bootstrap, jquery and is uwsgi/nginx compatible.
 
 Create new projects with:
 
