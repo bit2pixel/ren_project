@@ -4,9 +4,11 @@ Ren Project
 A Django template app creator.
 
 Create new projects with:
+
     ./setup.py
 
 Run projects with:
+
     ./run.sh 8080
 
 
