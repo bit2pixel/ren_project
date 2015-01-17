@@ -1,0 +1,36 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="{% static 'images/favicon.ico' %}">
+
+    <title>ren_project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'styles/lib/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+
+    <!-- Your custom CSS -->
+    <link href="{% static 'styles/style.css' %}" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    {% include "header.html" %}
+
+    {% block content %}{% endblock %}
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static 'scripts/lib/jquery.min.js' %}"></script>
+    <script src="{% static 'scripts/lib/bootstrap.min.js' %}"></script>
+
+    <!-- Your custom script -->
+    <script src="{% static 'scripts/script.js' %}"></script>
+  </body>
+</html>
