@@ -1,7 +1,7 @@
 Ren Project
 ===========
 
-A Django boilerplate app creator. Has bootstrap, jquery and is uwsgi/nginx compatible.
+A Django boilerplate creator. Works in virtualenv, has bootstrap, jquery and is uwsgi/nginx compatible.
 
 Create new projects with:
 
